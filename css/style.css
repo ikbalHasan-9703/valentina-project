@@ -1,0 +1,1053 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1300px;
+    
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* =================================================
+        header part start
+====================================================*/
+
+
+header{
+    width: 100%;
+    
+    background: #262626;
+}
+header .left{
+
+    width: 20%;
+    padding: 10px 0;
+    float: left;
+}
+header .left img{
+    margin: 2px 49px;
+   
+}
+header .khali{
+    width: 60%;
+    height: 46px;
+    float: left;
+}
+header .right{
+
+    width: 20%;
+   position: relative;
+    float: left;
+}
+header .right a{
+    font-family: sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    padding: 8px 17px;
+    font-weight: 300;
+    background-color: #6f9a37;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    top: 8px;
+    right: 26px;
+}
+
+/* =================================================
+        header part end
+====================================================*/
+/* =================================================
+        navber part start
+====================================================*/
+
+
+nav {
+    background: #fff1f6;
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+    
+}
+
+
+nav .container .logo{
+    width: 20%;
+    
+    float: left;
+}
+nav .container .logo img{
+    padding-top: 14px;
+}
+nav .container .menu{
+    width: 60%;
+   
+    float: left;
+}
+nav .container .menu ul li{
+    display: inline-block;
+    padding-top: 19px;
+}
+nav .container .menu ul li a{
+    color: #d50a51;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 43px;
+    color:black;
+    transition: .4s;
+}
+nav .container .menu ul li a:hover{
+    color: #d50a51;
+}
+nav .container .button{
+    width: 20%;
+   
+    float: left;
+}
+nav .container .button {
+   text-align: center;
+   padding-top: 16px;
+}
+nav .container .button a{
+    font-family: 'Josefin Sans', sans-serif;
+   border-radius: 25px;
+    color: #d50a51;
+    background-color: transparent;
+    border: 1px solid #d50a51;
+    border-color: #d50a51;
+    cursor: pointer;
+    padding: 13px 30px;
+    font-size: 20px;
+    transition: .4s;
+}
+nav .container .button a:hover{
+    background: #d50a51;
+    color: white;
+}
+
+
+
+/* =================================================
+         navber part end
+====================================================*/
+/* =================================================
+        banner part start
+====================================================*/
+
+
+.banner{
+    background: url(../images/banner.jpg) no-repeat center;
+   background-size: cover;
+   
+}
+.banner .img{
+    width: 50%;
+   
+    float:left;
+}
+.banner .img img{
+    width: 100%;
+}
+.banner .text{
+    width: 50%;
+    margin-top: 155px;
+    float:left;
+}
+.banner .text h3{
+    
+    color: #8a5e3b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-left: 168px;
+    
+}
+.banner .text h2{
+   
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    color: #d50a51;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    margin-top: -21px;
+    padding-left: 64px;
+    
+}
+.banner .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 25px;
+    padding-bottom: 69px;
+    width: 583px;
+    text-align: center;
+}
+.banner .text a{
+    font-family: 'Josefin Sans', sans-serif;
+   border-radius: 25px;
+    color: #d50a51;
+    background-color: transparent;
+    border: 1px solid #d50a51;
+    border-color: #d50a51;
+    cursor: pointer;
+    padding: 13px 30px;
+    font-size: 22px;
+    transition: .4s;
+    margin: 0 163px;
+    
+}
+.banner .text a:hover{
+    background: #d50a51;
+    color: white;
+}
+
+
+/* =================================================
+         banner part end
+====================================================*/
+/* =================================================
+         about part start
+====================================================*/
+
+.about {
+    background: white;
+}
+
+.about .img{
+    width: 50%;
+    
+    float: left;
+    margin: 109px 0;
+    
+}
+.about .text{
+    width: 50%;
+    
+    float: left;
+    margin: 109px 0;
+    
+}
+.about .text h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+    margin-top: 29px;
+}
+.about .text h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+.about .text p{
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 34px;
+    margin-left: -65px;
+}
+/* =================================================
+         about part end
+====================================================*/
+/* =================================================
+         history part start
+====================================================*/
+
+.historys{
+    background: #fff6da;
+}
+.historys  .history{
+    width: 60%;
+    
+    float: left;
+}
+.historys .history .heading {
+    position: relative;
+    margin-top: 75px;
+    margin-left: 87px;
+}
+
+.historys  .history h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+}
+.historys .history h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+.historys .history p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    width: 636px;
+    margin-bottom: 30px;
+}
+.historys .history .button{
+    padding-top: 20px;
+}
+.historys .history a{
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 25px;
+     color: #d50a51;
+     background-color: transparent;
+     border: 1px solid #d50a51;
+     border-color: #d50a51;
+     cursor: pointer;
+     padding: 13px 30px;
+     font-size: 22px;
+     transition: .4s;
+     margin-right: 20px;
+     
+}
+.historys .history a:hover{
+    color: white;
+    background: #d50a51;
+}
+.historys .img {
+    width: 40%;
+    float: left;
+    padding-top: -58px;
+    z-index: 1;
+    margin-top: -121px;
+}
+.historys .img  img{
+    
+    margin-left: -194px;
+    
+    
+}
+
+
+
+
+
+/* =================================================
+         history part end
+====================================================*/
+
+/* =================================================
+         gift part start
+====================================================*/
+
+.gifts{
+    background: white;
+    padding-top: 133px;
+    padding-bottom: 123px;
+}
+.gifts .gift .img{
+    width: 50%;
+    
+    float: left;
+}
+
+.gifts .gift .heading1{
+    width: 50%;
+   
+    float: left ;
+    text-align: right;
+}
+.gifts .gift .heading1 h3{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+   
+    text-transform: capitalize;
+}
+.gifts .gift .heading1 h2{
+   
+    margin-right: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+
+
+}
+.gifts .gift .heading1 p {
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 553px;
+    margin-left: 79px;
+}
+.gifts .gift .button{
+    text-align: right;
+    margin-top: 53px;
+}
+.gifts .gift .button a{
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 25px;
+     color: #d50a51;
+     background-color: transparent;
+     border: 1px solid #d50a51;
+     border-color: #d50a51;
+     cursor: pointer;
+     padding: 13px 30px;
+     font-size: 22px;
+     transition: .4s;
+     margin-right: 20px;
+     
+}
+.gifts .gift .button a:hover {
+    color: white;
+    background: #d50a51;
+}
+
+
+
+/* =================================================
+         gift part end
+====================================================*/
+
+/* =================================================
+         service part start
+====================================================*/
+.services {
+    padding-bottom: 50px;
+    background-color: #fff5f7;
+}
+
+.services .main1{
+    width: 28%;
+   margin-left: 48px;
+    float: left;
+}
+.services .main1 .title{
+    margin-left: 62px;
+}
+.services .main1 .title h3{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+   
+    text-transform: capitalize;
+}
+.services .main1 .title h2{
+    margin-right: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+
+}
+.services .main1 P{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    margin-bottom: 30px;
+   
+    
+ 
+}
+
+
+.services .main2{
+    
+    width: 28%;
+    float: left;
+    margin-left: 80px;
+  
+   
+}
+.services .main2 .sub-main1{
+    width: 100%;
+    margin-top: 23px;
+    
+    
+   
+   
+}
+.services .main2 .sub-main1:hover{
+    background: #effcff;
+    border-right: 6px;
+    -webkit-box-shadow: -3px 0px 11px 5px rgba(0,0,0,0.26); 
+box-shadow: -3px 0px 11px 5px rgba(0,0,0,0.26);
+    border-right: 4px solid crimson;
+}
+.services .main2 .sub-main1 .img{
+    width: 20%;
+    
+    float: left;
+}
+.services .main2 .sub-main1 .img .music-img{              
+    margin: 13px 29px;
+}
+.services .main2 .sub-main1 .text{
+    width: 80%;
+   
+    float: left;
+}
+.services .main2 .sub-main1 .text p{
+    padding: 40px 0px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #d50a51;
+    text-transform: capitalize;
+    margin-bottom: -21px;
+   
+   
+    
+}
+.services .main2 .sub-main1 .text .title{
+    padding: 43px 39px;
+}
+.services .main2 p{
+   
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 22px;
+    padding: 19px 25px;
+    width: 345px;
+    box-sizing: border-box;
+    
+    
+}
+
+.services .main2 .sub-main1 .img .romantic-img{
+    margin: 12px 28px;
+}
+
+
+.services .main3{
+    width: 28%;
+    float: left;
+    margin-left: 80px;
+}
+
+.services .main3 .sub-main1{
+    width: 100%;
+    margin-top: 23px;
+    
+    
+   
+   
+}
+.services .main3 .sub-main1:hover{
+    background: #effcff;
+    border-right: 6px;
+    -webkit-box-shadow: -3px 0px 11px 5px rgba(0,0,0,0.26); 
+box-shadow: -3px 0px 11px 5px rgba(0,0,0,0.26);
+    border-right: 4px solid crimson;
+}
+.services .main3 .sub-main1 .img{
+    width: 20%;
+    
+    float: left;
+}
+.services .main3 .sub-main1 .img .gift-img{
+    margin: 10px;
+}
+.services .main3 .sub-main1 .img .drinks-img{
+    margin: 13px 28px;
+}
+
+.services .main3 .sub-main1 .text{
+    width: 80%;
+   
+    float: left;
+}
+.services .main3 .sub-main1 .text p{
+    padding: 40px 0px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #d50a51;
+    text-transform: capitalize;
+    margin-bottom: -21px;
+   
+   
+    
+}
+.services .main3 p{
+   
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 23px;
+    padding: 19px 25px;
+    width: 345px;
+    box-sizing: border-box;;
+    
+    
+}
+
+
+/* =================================================
+         service part end
+====================================================*/
+/* =================================================
+         galery part start
+====================================================*/
+.galerys{
+    margin-top: 110px;
+    background: white;
+    margin-bottom: 60px;
+}
+.galerys .galery{
+    width: 32%;
+    height: 300px;
+    background: green;
+    float: left;
+    margin-right: 19px;
+    
+}
+.galerys .galery .main img{
+    width: 100%;
+}
+
+.galerys .galery{
+    width: 32%;
+    height: 472px;
+    background: rgb(3, 93, 116);
+    float: left;
+    margin-left: 16px;
+    border: 1px solid black;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+
+.galerys .galery .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.5);
+    opacity: 0;
+    transition: .1s;
+   
+    
+}
+.galerys .galery:hover .overlay{
+    
+    opacity: 1;
+    transform: rotate(360deg);
+   
+    
+    
+    
+    
+}
+.galerys .galery .overlay ul li i{
+
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 19px;
+    margin-bottom: 13px;
+    transition: .4s;
+}
+.galerys .galery .overlay ul li{
+    text-align: right;
+    margin: 26px 20px;
+}
+.galerys .galery .overlay ul li i:hover {
+    color: white;
+    background: crimson;
+}
+.galerys .galery .overlay h4{
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    
+    font-weight: 700;
+}
+.galerys .galery .overlay .icon a {
+   
+    display: inline-block;
+    margin-top: 21px;
+    margin-left: 13px;
+    margin-right: 13px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.galerys .galery .overlay .icon p{
+    display: inline-block;
+    margin-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.galerys .text{
+    width: 30%;
+    
+    float: left;
+    
+}
+.galerys .text .title{
+    text-align: right;
+    padding: 0 29px;
+}
+.galerys .text .title h3{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+   
+    text-transform: capitalize;
+}
+.galerys .text .title h2{
+    margin-right: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+.galerys .text p{
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 374px;
+    margin-top: 4px;
+    
+}
+.galerys .text .button {
+    margin-top: 40px;
+}
+
+.galerys .text .button a {
+
+    
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 25px;
+    color: #d50a51;
+    background-color: transparent;
+    border: 1px solid #d50a51;
+        border-top-color: rgb(213, 10, 81);
+        border-right-color: rgb(213, 10, 81);
+        border-bottom-color: rgb(213, 10, 81);
+        border-left-color: rgb(213, 10, 81);
+    border-top-color: rgb(213, 10, 81);
+    border-right-color: rgb(213, 10, 81);
+    border-bottom-color: rgb(213, 10, 81);
+    border-left-color: rgb(213, 10, 81);
+    border-color: #d50a51;
+    cursor: pointer;
+    padding: 11px 16px;
+    font-size: 22px;
+    transition: .4s;
+    
+    margin-left: 35px;
+         
+   
+    
+
+}
+.galerys .text .button a:hover{
+    color: white;
+    background: #d50a51;
+}
+
+
+.galerys .khali {
+    width: 29%;
+    height: 476px;
+    background: rgb(255, 255, 255);
+    float: left;
+    margin-bottom: 32px;
+}
+
+
+
+
+/* =================================================
+          galery part end
+====================================================*/
+/* =================================================
+          timer part start
+====================================================*/
+.timer{
+    background: url(../images/counter-bg.jpg) no-repeat center;
+   background-size: cover;
+   
+    
+}
+
+.timer .time{
+    width: 23%;
+    padding-bottom: 187px;
+    
+    float: left;
+    margin-left: 26px;
+    margin-top: -13px;
+    text-align: center;
+}
+.timer .time img{
+    margin-top: 62px;
+    width: 100px;
+}
+.timer .time .img2{
+    margin-top: 92px;
+}
+.timer .time h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: #d50a51;
+    padding-top: 42px;
+    margin-bottom: 0;
+}
+.timer .time h3{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    color: #444;
+    letter-spacing: 3px;
+}
+
+
+/* =================================================
+          timer part end
+====================================================*/
+/* =================================================
+          clients part start
+====================================================*/
+.clients {
+   margin-top: 100px;
+   margin-bottom: 50px;
+  
+}
+
+.clients .text{
+    width: 46%;
+    background: #fffae2;
+    float: left;
+    margin-left: 6px;
+    padding: 39px 36px;
+    box-sizing: border-box;
+    margin-right: 41px;
+    margin-left: 11px;
+    margin-top: -21px;
+}
+    
+  
+
+.clients .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    margin-bottom: 27px;
+}
+.clients .text img{
+    z-index: 1;
+}
+.clients .text .content{
+    width: 424px;
+margin-left: 135px;
+margin-top: -62px;
+}
+.clients .text .content h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #222;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.clients .text .content h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+/* =================================================
+          clients part end
+====================================================*/
+/* =================================================
+          footer part start
+====================================================*/
+footer{
+    background: url(../images/footer-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-bottom: 30px;
+    
+}
+footer .item{
+    width: 30%;
+   
+    float: left;
+    margin-left: 15px;
+}
+footer .item ul li{
+    display: inline-block;
+    position: relative;
+}
+
+
+footer .item ul li i{
+    width: 40px;
+    height: 40px;
+    background: #d50a51;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    
+    left: -37px;
+    top: -20px;
+  
+}
+footer .item ul{
+    margin-left: 74px;
+    margin-top: 136px;
+}
+
+footer .item ul li p a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #444;
+    text-decoration: none;
+    margin-left: 20px;
+    line-height: 26px;
+    
+    
+}
+
+footer .item ul li .location {
+   padding-left: 6px;
+   padding-bottom: 38px;
+}
+footer .item .logo img{
+    margin-left: 82px;
+    margin-top: 58px;
+}
+footer .item .middle{
+    margin-top: 38px;
+}
+footer .item p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #d50a51;
+    font-weight: 700;
+    text-align: center;
+    
+}
+footer .item .left{
+    margin-left: -54px;
+}
+footer .item .icons{
+    margin-left: 44px;
+    margin-top: 26px;
+}
+footer .item .icons  a i{
+     width: 40px;
+     height: 40px;
+     border: 1px solid crimson;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 40px;
+     margin-left: 5px;
+     color: crimson;
+     transition: .4s;
+     font-size: 21px;
+
+}
+footer .item .icons a i:hover{
+    color: white;
+    background: crimson;;
+}
+
+
+
+
+
+
+/* =================================================
+          footer part end
+====================================================*/
+
+/* =================================================
+          end part start
+====================================================*/
+
+section .footer{
+    text-align: center;
+    background: rgb(255, 252, 219);
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+section .footer span{
+    color: #d50a51;
+}
+
+
+
+
+/* =================================================
+          end part end
+====================================================*/
