@@ -23,7 +23,15 @@ a{
 /* =================================================
         header part start
 ====================================================*/
-
+#preloader {
+    background: #fff url(../images/preloader.gif) no-repeat center center;
+    background-size: 85px;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    
+}
 
 header{
     width: 100%;
@@ -37,7 +45,8 @@ header .left{
     float: left;
 }
 header .left img{
-    margin: 2px 49px;
+    margin: 6px 15px;
+    width: 151px;
    
 }
 header .khali{
@@ -75,13 +84,41 @@ header .right a{
 ====================================================*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav {
     background: #fff1f6;
     width: 100%;
-    height: 60px;
+    position: fixed;
     padding-top: 20px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   
     
 }
+nav .sticky{
+   
+    background: #000;
+    color: #fff;
+}
+
+
+
+
 
 
 nav .container .logo{
@@ -514,7 +551,7 @@ box-shadow: -3px 0px 11px 5px rgba(0,0,0,0.26);
     float: left;
 }
 .services .main2 .sub-main1 .img .music-img{              
-    margin: 13px 29px;
+    margin: 12px 29px;
 }
 .services .main2 .sub-main1 .text{
     width: 80%;
@@ -643,11 +680,11 @@ box-shadow: -3px 0px 11px 5px rgba(0,0,0,0.26);
 
 .galerys .galery{
     width: 32%;
-    height: 472px;
+    /* height: 472px; */
     background: rgb(3, 93, 116);
     float: left;
     margin-left: 16px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom: 32px;
     position: relative;
 }
@@ -657,18 +694,20 @@ box-shadow: -3px 0px 11px 5px rgba(0,0,0,0.26);
     position: absolute;
     top: 0;
     left: 0;
+    bottom: -172px;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     background: rgba(0, 0, 0,0.5);
     opacity: 0;
     transition: .1s;
+    transform: scale(0);
    
     
 }
 .galerys .galery:hover .overlay{
     
     opacity: 1;
-    transform: rotate(360deg);
+    transform: scale(1);
    
     
     
@@ -772,16 +811,7 @@ box-shadow: -3px 0px 11px 5px rgba(0,0,0,0.26);
     border-radius: 25px;
     color: #d50a51;
     background-color: transparent;
-    border: 1px solid #d50a51;
-        border-top-color: rgb(213, 10, 81);
-        border-right-color: rgb(213, 10, 81);
-        border-bottom-color: rgb(213, 10, 81);
-        border-left-color: rgb(213, 10, 81);
-    border-top-color: rgb(213, 10, 81);
-    border-right-color: rgb(213, 10, 81);
-    border-bottom-color: rgb(213, 10, 81);
-    border-left-color: rgb(213, 10, 81);
-    border-color: #d50a51;
+    border: 1px solid crimson;
     cursor: pointer;
     padding: 11px 16px;
     font-size: 22px;
@@ -799,12 +829,13 @@ box-shadow: -3px 0px 11px 5px rgba(0,0,0,0.26);
 }
 
 
-.galerys .khali {
-    width: 29%;
-    height: 476px;
-    background: rgb(255, 255, 255);
-    float: left;
-    margin-bottom: 32px;
+.galerys .three{
+    margin-top: 124px;
+    margin-bottom: 187px;
+}
+.galerys .four{
+    margin-top: 124px;
+    margin-bottom: 187px;
 }
 
 
